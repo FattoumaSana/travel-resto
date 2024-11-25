@@ -1,0 +1,153 @@
+.hero-section {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    background-image: url('/img/bg.jpg'); 
+    height: 500px; 
+    background-size: cover; 
+    background-position: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #62222B !important;
+    border-color: #62222B !important;
+}
+
+.btn-primary:hover {
+    background-color: #4e1b22 !important;
+    border-color: #4e1b22 !important;
+}
+
+
+.navbar {
+    border-bottom: 1px solid #e0e0e0; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 1rem;
+    background-color: #ffffff; 
+}
+
+
+.navbar-brand {
+    font-weight: bold; 
+    color: #62222B !important; 
+    transition: color 0.3s ease-in-out; 
+}
+
+.navbar-brand:hover {
+    color: #8B3A4D; 
+}
+
+
+.navbar-light .nav-link {
+    color: #555; 
+    text-decoration: none; 
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out; 
+}
+
+
+.navbar-light .nav-link:hover {
+    color: #62222B; 
+    border-bottom: 2px solid #62222B; 
+}
+
+
+.nav-link i {
+    margin-right: 5px; 
+    transition: transform 0.3s; 
+}
+
+.nav-link:hover i {
+    transform: scale(1.2); 
+}
+
+.navbar-nav .nav-item {
+    margin: 0 5px; 
+}
+
+/* Bouton de menu burger */
+.navbar-toggler {
+    border: none; 
+    outline: none;
+    background-color: #62222B;
+    color: #fff; 
+}
+.navbar-toggler:hover {
+    background-color: #8B3A4D; 
+}
+
+/* Section Menu */
+#menu img {
+    border: 2px solid #62222B;
+    border-radius: 8px;
+}
+
+#menu h3 {
+    border-bottom: 2px solid #62222B;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+#menu .price {
+    color: #62222B;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Informations de contact */
+.p-4 {
+    background-color: #f8f9fa; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px; 
+    line-height: 1.8; 
+}
+
+/* Titre */
+h4 {
+    font-family: 'Georgia', serif; 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+
+/* Icônes */
+.fa-map-marker-alt, .fa-phone, .fa-envelope {
+    font-size: 1.5rem;
+    color: #62222B;
+    margin-right: 15px;
+    transition: transform 0.3s ease; 
+}
+
+/* Lien dans l'email */
+a {
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #62222B; 
+    text-decoration: underline; 
+}
+
+/* Message d'invitation */
+p.text-center {
+    font-style: italic;
+    color: #777; 
+}
+
+
+
+
+/*footer*/
+
+footer {
+    font-size: 1rem; 
+}
+
+footer a:hover {
+    color: #d4af37; 
+    text-decoration: none; 
+}

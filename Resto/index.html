@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/logo-resto.png">
+    <title>Restaurant Fictif</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <!-- Logo avec titre -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="/img/logo-resto.png" alt="Logo" style="height: 50px;" class="me-2">
+            <span class="fw-bold" style="color: #62222B;">Mon Restaurant</span>
+        </a>
+        <!-- Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Liens de navigation -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!-- Lien Menu -->
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#menu">
+                        <i class="fas fa-utensils me-2" style="color: #62222B;"></i> 
+                        <span>Menu</span>
+                    </a>
+                </li>
+                <!-- Lien À propos -->
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#about">
+                        <i class="fas fa-info-circle me-2" style="color: #62222B;"></i> 
+                        <span>À propos de nous</span>
+                    </a>
+                </li>
+                <!-- Lien Contact -->
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#contact">
+                        <i class="fas fa-envelope me-2" style="color: #62222B;"></i> 
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Section héros -->
+<div class="hero-section text-white text-center d-flex align-items-center" >
+    <div class="container">
+        <h1 class="display-4 fw-bold">Bienvenue à Mon Restaurant</h1>
+        <p class="lead text-white">Un goût unique pour chaque occasion.</p>
+        <a href="#menu" class="btn btn-primary btn-lg">Menu Gourmand</a>
+    </div>
+</div>
+<!-- Section Menu -->
+<section id="menu" class="py-5 bg-light">
+    <div class="container">
+<h2 class="text-center mb-4 position-relative">🍴 Menu du jour 🍷</h2>
+
+        
+        <!-- Catégorie Entrées -->
+        <h3 class="text-center text-dark mb-3">Entrées</h3>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <img src="/img/Salade-Cesar.jpg" class="img-fluid rounded me-3" alt="Entrée 1" style="width: 120px;">
+                    <div>
+                        <h5 class="mb-1">Salade César</h5>
+                        <p class="mb-1 text-muted">Salade fraîche avec poulet grillé et croûtons.</p>
+                        <p class="text-primary fw-bold">12DT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <img src="/img/Soupe.jpg" class="img-fluid rounded me-3" alt="Entrée 2" style="width: 120px;">
+                    <div>
+                        <h5 class="mb-1">Soupe de potiron</h5>
+                        <p class="mb-1 text-muted">Crémeuse, servie avec du pain maison.</p>
+                        <p class="text-primary fw-bold">10DT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catégorie Plats principaux -->
+        <h3 class="text-center text-dark mt-5 mb-3">Plats Principaux</h3>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <img src="/img/Risotto-ruffes.jpg" class="img-fluid rounded me-3" alt="Plat 1" style="width: 120px;">
+                    <div>
+                        <h5 class="mb-1">Risotto aux Truffes</h5>
+                        <p class="mb-1 text-muted">Un risotto crémeux aux saveurs riches.</p>
+                        <p class="text-primary fw-bold">25DT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <img src="/img/Filet-Mignon.jpg" class="img-fluid rounded me-3" alt="Plat 2" style="width: 120px;">
+                    <div>
+                        <h5 class="mb-1">Filet Mignon</h5>
+                        <p class="mb-1 text-muted">Un filet mignon tendre et juteux.</p>
+                        <p class="text-primary fw-bold">30DT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catégorie Desserts -->
+        <h3 class="text-center text-dark mt-5 mb-3">Desserts</h3>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <img src="/img/Chocolat.jpg" class="img-fluid rounded me-3" alt="Dessert 1" style="width: 120px;">
+                    <div>
+                        <h5 class="mb-1">Soufflé au Chocolat</h5>
+                        <p class="mb-1 text-muted">Un dessert parfait pour les amateurs de chocolat.</p>
+                        <p class="text-primary fw-bold">12DT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex align-items-center">
+                    <img src="/img/Tiramisu.jpg" class="img-fluid rounded me-3" alt="Dessert 2" style="width: 120px;">
+                    <div>
+                        <h5 class="mb-1">Tiramisu</h5>
+                        <p class="mb-1 text-muted">Un dessert italien classique.</p>
+                        <p class="text-primary fw-bold">10DT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section À propos de nous -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Image -->
+            <div class="col-md-6">
+                <img src="/img/bonjour.jpg" class="img-fluid rounded" alt="Intérieur du restaurant">
+            </div>
+            <!-- Texte -->
+            <div class="col-md-6">
+                <h2>À propos de nous</h2>
+                <p>Depuis plus de 10 ans, Mon Restaurant offre une expérience gastronomique exceptionnelle à ses clients. Notre mission est de vous servir des plats délicieux préparés avec des ingrédients frais et locaux.</p>
+                <p>Nous sommes fiers de notre équipe passionnée qui met tout en œuvre pour rendre chaque visite mémorable.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section Contact -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Contactez-nous</h2>
+        <div class="row">
+<!-- Informations de contact -->
+<div class="col-md-6">
+    <div class="p-4 bg-white shadow-sm rounded">
+        <h4 class="mb-4 text-center" style="color: #62222B;">Informations de contact</h4>
+        <p class="text-center mb-4" style="font-style: italic; color: #444444;">
+            N'hésitez pas à nous contacter pour toute question ou réservation. 
+            Venez déguster nos plats et vivre une expérience culinaire unique !
+        </p>
+        <p class="d-flex align-items-center mb-3">
+            <i class="fa fa-map-marker-alt me-3" style="font-size: 1.5rem; color: #62222B;"></i>
+            <span>Rue du Lac Lochness, Tunis, Tunis 1053</span>
+        </p>
+        <p class="d-flex align-items-center mb-3">
+            <i class="fa fa-phone me-3" style="font-size: 1.5rem; color: #62222B;"></i>
+            <span>52 344 796</span>
+        </p>
+        <p class="d-flex align-items-center mb-3">
+            <i class="fa fa-envelope me-3" style="font-size: 1.5rem; color: #62222B;"></i>
+            <span>
+                <a href="mailto:benissia.fs@gmail.com" class="text-decoration-none" style="color: #555;">benissia.fs@gmail.com</a>
+            </span>
+        </p>
+    </div>
+</div>
+    <!-- Google Maps -->
+    <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9" style="position: relative; overflow: hidden; padding-bottom: 56.25%; height: 0;">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12141.125933506075!2d10.2388671!3d36.8357113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3541c4f22e55%3A0x5b7225d7fdbb3801!2sGOMYCODE%20LAC1!5e1!3m2!1sfr!2stn!4v1732294721204!5m2!1sfr!2stn" 
+                width="100%" 
+                height="100%" 
+                style="border:0; position: absolute; top: 0; left: 0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div> 
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container-fluid">
+        <p class="mb-2">&copy; 2024 Mon Restaurant Fattouma Sana. Tous droits réservés.</p>
+        <div>
+            <a href="#" class="text-white mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
