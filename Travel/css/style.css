@@ -1,4 +1,4 @@
-/* Section Héro */
+/* Section HÃ©ro */
 .hero-section {
     position: relative;
     height: 500px;
@@ -22,7 +22,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Filtre sombre pour améliorer la lisibilité du texte */
+    background: rgba(0, 0, 0, 0.5); 
 }
 .hero-section .overlay {
     position: absolute;
@@ -72,12 +72,12 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation au survol */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card i {
-    color: #007bff; /* Couleur principale des icônes */
-    transition: color 0.3s ease; /* Animation de la couleur */
+    color: #007bff; 
+    transition: color 0.3s ease; 
 }
 
 .service-card h5 {
@@ -91,23 +91,41 @@
     color: #666;
 }
 
-/* Effet au survol */
 .service-card:hover {
-    transform: translateY(-10px); /* Légère élévation */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .service-card:hover i {
-    color: #0056b3; /* Change la couleur des icônes au survol */
+    color: #0056b3; 
+}
+
+/* Uniformiser la hauteur des images */
+.card img {
+    height: 450px; 
+    object-fit: cover; 
+    width: 100%; 
+    border-top-left-radius: 0.25rem; 
+    border-top-right-radius: 0.25rem;
+}
+
+/* Ombre lÃ©gÃ¨re pour les cartes */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
 }
 
 /* Section Contactez-nous */
 #contact {
     background-color: #f4f4f4;
     padding: 60px 0;
-    background-image: url('/img/footer-background-2.jpg'); /* Image d'arrière-plan */
-    background-size: cover; /* Couvre toute la section */
-    background-position: center; /* Centre l'image */
+    background-image: url('/img/footer-background-2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
 }
 
 #contact h2 {
@@ -115,7 +133,6 @@
     margin-bottom: 40px;
 }
 
-/* Agrandir la carte de contact */
 .contact-card {
     background-color: white;
     border-radius: 10px;
